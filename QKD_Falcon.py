@@ -72,7 +72,7 @@ def send_basis(alice_basis, bob_basis):
         pass
 
     ALice_signature = flacon_signing(alice_basis, sk_Alice)  ## Alice signing her basis and sending her basis and sig
-    print("Alice signed her basis using falcon")
+    print("Alice signed her basis using falcon-1024")
 
     pk_Alice_off = open("Alice_Publickey.txt", "rb")
     Alice_Pk_recived = pc.load(pk_Alice_off)
